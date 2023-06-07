@@ -13,7 +13,10 @@ out.print(login_msg);
 String login_msg=(String)request.getAttribute("login_msg");  
 if(login_msg!=null){  
 out.print(login_msg);  
-}  
+
+String login_msg=(String)request.getAttribute("login_msg");  
+if(login_msg!=null){  
+out.print(login_msg);}  
  %>  
  <br/>  
 <form action="loginprocess.jsp" method="post">  
